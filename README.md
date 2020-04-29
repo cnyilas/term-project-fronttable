@@ -82,22 +82,22 @@ term-project-fronttable created by GitHub Classroom
   
   
   
-## 4) Created Datawarehouse with 5 Dimentional Tables and a Fact Table
+## 4) Created Datawarehouse with 5 Dimensional Tables and a Fact Table
   
- ### Tables Created
+### Tables Created
   
-   - LOCATION1
+       - LOCATION1
    
-   - INSTRUCTOR1
+       - INSTRUCTOR1
    
-   - PROGRAM1
+       - PROGRAM1
    
-   - COURSE1
+       - COURSE1
    
-   - COURSE_MEETING1
+       - COURSE_MEETING1
    
-   - Fact table: COURSE_FACTS
-   
+       - Fact table: COURSE_FACTS
+       
    
    
 ## 5) Integrity Checks on Database
