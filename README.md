@@ -4,41 +4,43 @@ term-project-fronttable created by GitHub Classroom
 
 ## Project Outline
 --- 
+
+
 ## 1) Table Creation
 
-### We created 6 tables that contain Fairfield University Course Catalog
+### Created 6 tables that contain Fairfield University Course Catalog
 
-   -- Location
+   - Location
    
-   -- Course_Meeting
+   - Course_Meeting
    
-   -- Program
+   - Program
    
-   -- Course
+   - Course
    
-   -- Instructor
+   - Instructor
    
-   -- Course_Offering
+   - Course_Offering
    
----   
-Table Dictionary
+   
+## Table Dictionary
 
-** Location Table ** 
+**Location Table** 
   - Location_code- Combination of room and building 
   - Building- School/building in which the course is offered
   - Room- Classroom number
 
-** Course_Meeting Table **
+**Course_Meeting Table**
   - CatalogID- Program code and level for course
   - Location- Building and room number of the course
   - StartDateTime- Information on the date and time of first course meeting
   - EndDataTime- Information on the date and time of the last course meeting
   
-** Program Table **
+**Program Table**
   - ProgramCode- Abbrevation of the program name 
   - ProgramName - Name of the program offered
   
-** Course Table **
+**Course Table**
   - CourseTitle- Name of course offered 
   - Description- Description of the course
   - Attributes - Requirements the course fulfills
@@ -47,10 +49,10 @@ Table Dictionary
   - Prereqs- Classes that must be taken prior 
   - Fees - Any Fees incurred by the course
   
-** Instructor Table **
+**Instructor Table**
   - InstructorName - Name of professor teaching the course
   
-** Course Offering **
+**Course Offering**
   - CatalogID - Program code and level for course
   - CourseTitle - Name of course offered
   - Section - Different section of the course
@@ -62,49 +64,49 @@ Table Dictionary
   - Rem - Spots remaining in the course
   - StartDay - Date and time of first class
   - End - Date and time of the last class
-  --- 
-  ## 2) DataFrame Creation using Python
+ 
+## 2) DataFrame Creation using Python
   
-  - We created 3 dataframes Courses, Course_meeting, and CourseCatalog
+  - Created 3 dataframes Courses, Course_meeting, and CourseCatalog
   
-  - We decided to combine all csv files into one database to simplify data management 
+  - Combined all csv files into one database to simplify data management 
   
-  - Since there were duplicate information, we decided to only use CourseCatalog data from 2017 to 2018
+  - Since there were duplicate information, decided to only use CourseCatalog data from 2017 to 2018
   
- --- 
-  ## 3) Load Dataframe into SQL Tables
+ 
+## 3) Load Dataframe into SQL Tables
 
   - Loaded DataSet from Python to SQL
   
   - Ran integrity checks on created tables
   
-  ---
   
-  ## 4) Created Datawarehouse with 5 Dimentional Tables and a Fact Table
   
-  ### Tables Created
+## 4) Created Datawarehouse with 5 Dimentional Tables and a Fact Table
   
-   -- LOCATION1
+ ### Tables Created
+  
+   - LOCATION1
    
-   -- INSTRUCTOR1
+   - INSTRUCTOR1
    
-   -- PROGRAM1
+   - PROGRAM1
    
-   -- COURSE1
+   - COURSE1
    
-   -- COURSE_MEETING1
+   - COURSE_MEETING1
    
-   -- Fact table: COURSE_FACTS
+   - Fact table: COURSE_FACTS
    
-   ---
    
-  ## 5) Integrity Checks on Database
+   
+## 5) Integrity Checks on Database
    
    - Counted rows in dimention tables
    
-   ---
    
- ## 6) Queries Answered from our Database
+   
+## 6) Queries Answered from our Database
  
   - What is the biggest class enrollment of all available semesters?
   
@@ -114,6 +116,6 @@ Table Dictionary
   
   - What classroom had the most classes held?
   
- ---
  
- ## 7) Vacuumed Data 
+ 
+ ## 7) Vacuum Data 
